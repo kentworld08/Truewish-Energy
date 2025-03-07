@@ -5,7 +5,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./Component/scrollToTopPage";
 import App from "./App.jsx";
-
 import { ErrorBoundary } from "react-error-boundary";
 
 const ErrorFallback = ({ error, resetErrorBoundary }) => {

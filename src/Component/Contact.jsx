@@ -63,15 +63,18 @@ function Contact() {
               </div>
 
               <div className="media-address-wrapper">
-                <Link to="twitter" target="_blank">
+                <Link to="">
                   <img src={twitterwhite} loading="lazy" alt="twitter icon" />
                 </Link>
 
-                <Link to="instagram" target="-blank">
+                <Link
+                  to="https://www.instagram.com/truewishenergy/"
+                  target="-blank"
+                >
                   <img src={instawhite} loading="lazy" alt="instagram icon" />
                 </Link>
 
-                <Link to="dribble" target="-blank">
+                <Link to="">
                   <img src={dribble} loading="lazy" alt="dribble icon" />
                 </Link>
               </div>
