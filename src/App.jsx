@@ -6,7 +6,7 @@ import Contact from "./Component/Contact";
 import Poject from "./Component/Poject";
 import About from "./Component/About";
 import Nav from "./Component/Nav";
-import Footer from "./Component/footer";
+import Footer from "./Component/Footer.jsx";
 import TechnicalService from "./Component/TechnicalService";
 import Batteries from "./Component/Batteries";
 import SolarProducts from "./Component/SolarProducts";
