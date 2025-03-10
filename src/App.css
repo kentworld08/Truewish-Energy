@@ -20,6 +20,7 @@ html {
   padding: 0;
   font-family: "Poppins", "Nunito", sans-serif;
   overflow-x: hidden;
+  color: #ffffff;
 }
 
 .top-container {
@@ -30,6 +31,7 @@ html {
   left: 0;
   z-index: 100;
   display: flex;
+  color: #ffffff;
   justify-content: center;
   align-items: center;
   background-color: var(--text-color);
@@ -3540,38 +3542,46 @@ input:focus {
     width: 100%;
     height: fit-content;
     padding: 20px;
+    color: #ffffff;
   }
 
   .contact-form-left-content-info {
     width: 100%;
     height: fit-content;
+    color: #ffffff;
   }
 
   .contact-form-left-top-content-info {
     width: 100%;
     height: fit-content;
     gap: 20px;
+    color: #ffffff;
   }
 
   .contact-form-left-top-text {
     width: 100%;
     height: fit-content;
+    color: #ffffff;
   }
   .contact-form-left-top-text h1 {
     font-weight: bold;
     font-size: inherit;
+    color: #ffffff;
   }
   .contact-form-left-top-text p {
     font-weight: normal;
     font-size: inherit;
+    color: #ffffff;
   }
 
   .media-address-wrapper {
     gap: 20px;
+    color: #ffffff;
   }
   .media-address-wrapper img {
     width: 20px;
     height: 20px;
+    color: #ffffff;
   }
 
   .circle-two {
