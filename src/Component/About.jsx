@@ -48,18 +48,21 @@ function About() {
           <h1>Meet Our Team</h1>
           <div className="team-card-wrapper">
             <div className="team-card-content">
+              <div className="ceo-img" />
               <div className="team-name">
-                <h2>Gbuyi Odlan</h2>
+                <h2>Gbuyi Odulana</h2>
                 <p>CEO, Founder</p>
               </div>
             </div>
             <div className="team-card-content">
+              <div className="manager-img" />
               <div className="team-name">
                 <h2>Adebola Odulana</h2>
                 <p>Office Manager</p>
               </div>
             </div>
             <div className="team-card-content">
+              <div className="engineer-img" />
               <div className="team-name">
                 <h2>Wahab Bankole</h2>
                 <p>Senior Engineer</p>

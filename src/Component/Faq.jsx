@@ -1,7 +1,8 @@
 import React from "react";
-import CollapsibleList from "./FaqCollapsibleList";
+// import CollapsibleList from "./FaqCollapsibleList";
 import mail from "../assets/images/mail.png";
 import icsharpemail from "../assets/images/ic_sharp-email.png";
+import { FAQList } from "./FaqCollapsibleList";
 import "@/App.css";
 
 function Faq() {
@@ -11,14 +12,14 @@ function Faq() {
         <div className="FAQ-left-content">
           <h1>Frequently Asked Questions</h1>
           <p>
-            The most comprehensive complete-system warranty in the solar
-            industry. Hassle-free replacement, repair or reimbursement.
+            Find answers to common questions about our products, services,
+            warranty, and more. We're here to help!
           </p>
           <div>
             <h3>
-              Any Question?&nbsp;
+              Need further assistance? Reach out to us at&nbsp;
               <a href="mailto:support@truewishenergy.com" className="mail-link">
-                support@truewishenergy.com{" "}
+                support@truewishenergy.com
                 <span className="tooltip">
                   <img src={icsharpemail} alt="mail icon " loading="lazy" />
                   &nbsp; copy sales@truewishenergy.... &nbsp; |&nbsp; Send mail
@@ -27,7 +28,7 @@ function Faq() {
             </h3>
           </div>
         </div>
-        <div className="FAQ-right-content">{<CollapsibleList />}</div>
+        <FAQList />
       </div>
     </section>
   );

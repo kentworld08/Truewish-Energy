@@ -35,7 +35,7 @@ function Services() {
     <section id="servives-section">
       <div className="services">
         <div className="services-title">
-          <h1>Services That's Right For You.</h1>
+          <h1>Our Services</h1>
         </div>
       </div>
       <div className="energy-solution">

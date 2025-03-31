@@ -34,6 +34,7 @@ import NumberCounter from "./Utils.jsx/numberCounter";
 import Workprocess from "./Workprocess";
 import "@/App.css";
 import Faq from "./Faq";
+
 import { Link, useNavigate } from "react-router-dom";
 
 const images = [`${image1}`, `${image2}`, `${image3}`, `${image4}`];
@@ -192,8 +193,8 @@ function Home() {
             <h1> Generating Clean Energy for Africa's Future.</h1>
             <p>
               TrueWish Energy offers high-quality solar panels, inverters, and
-              system kits for utility and commercial projects. Power your future
-              with sustainable energy.
+              system kits for utility and commercial projects. <br />
+              Embrace sustainable energy solutions for a greener future.
             </p>
             <span className="hero-button-container">
               <button className="learn-more-button" onClick={handleLearnMore}>

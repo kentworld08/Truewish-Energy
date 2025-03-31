@@ -41,9 +41,6 @@ function Footer() {
           <div className="pages-wrapper">
             <h3>Follow Us</h3>
             <span className="page-link-wrapper">
-              {/* <Link to="" className="page-link">
-                Facebook
-              </Link> */}
               <Link
                 target="_blank"
                 to="https://www.instagram.com/truewishenergy/"
@@ -51,6 +48,10 @@ function Footer() {
               >
                 Instagram
               </Link>
+              {/* <Link to="" className="page-link">
+                Facebook
+              </Link> */}
+
               {/* <Link to="" className="page-link">
                 Twitter
               </Link> */}

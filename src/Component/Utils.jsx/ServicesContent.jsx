@@ -22,10 +22,9 @@ export const Technical = () => {
         <h3>STEP 01</h3>
         <h1>Inspection & Load Estimation</h1>
         <p>
-          Our team will evaluate your requirements, considering factors like
-          load, usage patterns, essential appliances, and budget, in order to
-          suggest the most suitable inverter. If needed, we'll perform a site
-          inspection and load estimation to optimize your backup solution..
+          We'll tailor the perfect inverter solution based on the appliances in
+          your household, your needs, and budget, with a thorough site
+          inspection to ensure accuracy.
         </p>
         <img src={inspection} alt="inspection image" loading="lazy" />
       </div>
@@ -33,12 +32,10 @@ export const Technical = () => {
         <h3>STEP 02</h3>
         <h1>Delivery & Installation</h1>
         <p>
-          We advise utilizing a Truewish energy Service approved installer for
-          your installation. Our installers will guide you on inverter operation
-          and conditions for optimal use, including which appliances are not
-          suitable for use with an inverter system and tips for battery
-          longevity. They'll ensure you fully benefit from your purchase.
-          Additionally, delivery services are available upon request.
+          After our engineer has completed the site assessment and provided an
+          estimate, your Truewish Energy Service-approved installer will deliver
+          and expertly install your inverter, ensuring optimal performance and
+          efficiency.
         </p>
         <img src={delivery} alt="delivery image" loading="lazy" />
       </div>
@@ -46,8 +43,9 @@ export const Technical = () => {
         <h3>STEP 03</h3>
         <h1>Premium Service & Support</h1>
         <p>
-          Our technical team offers round-the-clock support should you require
-          assistance with your solar product.
+          Our expert technical team is available Monday to Friday, from 8 AM to
+          5 PM, to assist you with any needs regarding your solar products,
+          inverters, batteries, and more.
         </p>
         <img src={premium} alt="premium image" loading="lazy" />
       </div>

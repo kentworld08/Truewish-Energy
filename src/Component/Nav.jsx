@@ -12,11 +12,11 @@ function Nav() {
   const [isHome, setIsHome] = useState(location.pathname === "/");
   const [isOpen, setIsOpen] = useState(false);
   const [closing, setClosing] = useState(false);
-  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 768);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 769);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsLargeScreen(window.innerWidth >= 768);
+      setIsLargeScreen(window.innerWidth >= 769);
     };
 
     window.addEventListener("resize", handleResize);
@@ -79,10 +79,53 @@ function Nav() {
           />
         </Link>
 
+        <div className="nav-links">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `home-link ${isActive ? "active-page" : ""}`
+            }
+          >
+            HOME
+          </NavLink>
+          <NavLink
+            to="Poject"
+            className={({ isActive }) =>
+              `link ${isActive ? "active-page" : ""}`
+            }
+          >
+            PROJECT
+          </NavLink>
+          <NavLink
+            to="services"
+            className={({ isActive }) =>
+              `link ${isActive ? "active-page" : ""}`
+            }
+          >
+            SERVICES
+          </NavLink>
+          <NavLink
+            to="About"
+            className={({ isActive }) =>
+              `link ${isActive ? "active-page" : ""}`
+            }
+          >
+            ABOUT
+          </NavLink>
+          <NavLink
+            to="contact"
+            className={({ isActive }) =>
+              `link ${isActive ? "active-page" : ""}`
+            }
+          >
+            CONTACT US
+          </NavLink>
+        </div>
+
         <button className="hamburger" onClick={toggleMenu}>
           ☰
         </button>
-        {(isOpen || closing || isLargeScreen) && (
+        {(isOpen || closing) && (
           <div className={`nav-links ${closing ? "closed" : "open"}`}>
             <NavLink
               to="/"
